@@ -1,0 +1,248 @@
+html {
+    font-family: Roboto, sans serif;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+body {
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    color: #636363;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.brand {
+    margin-top: 10px;
+}
+
+.nav-element1 {
+    margin-left: 20px;
+    padding: 12px;
+    font-family: Roboto, sans serif;
+    font-size: medium;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.nav-elements ul,
+li {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.li1 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: Roboto, sans serif;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.li1 :hover {
+    background-color: #f6f8f8;
+    color: #00CCB1;
+}
+
+a {
+    text-decoration-line: none;
+    color: #636363;
+    font-family: Roboto, sans serif;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #00CCB1;
+    transition: 0.2s;
+}
+
+.dropdown-button {
+    border: none;
+    background-color: white;
+    font-family: Roboto, sans serif;
+    font-size: medium;
+    font-weight: 400;
+    color: #636363;
+}
+
+.dropdown-menu {
+    display: none;
+    font-family: Roboto, sans serif;
+    font-size: small;
+    font-weight: 300;
+    color: rgb(49, 48, 48);
+}
+
+.nav-elements ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+.nav-elements ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Watermark {
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.title1 {
+    display: flex;
+    justify-self: center;
+    color: #00CCB1;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.paragraph1 {
+    width: 500px;
+    display: flex;
+    justify-self: flex-start;
+    margin-right: 20px;
+}
+
+.paragraph2 {
+    width: 500px;
+    display: flex;
+    justify-self: flex-end;
+    font-size: larger;
+}
+
+.Boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.Box1 {
+    background-color: #00CCB1;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 290px;
+    height: 300px;
+    margin-top: 80px;
+    margin-right: 10px;
+    padding: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+#country1 {
+    border: none;
+    width: 180px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    background-color: #00CCB1;
+    font-family: Roboto, sans-serif;
+    font-size: large;
+}
+
+.Box2 {
+    background-color: #3D83DF;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 290px;
+    height: 300px;
+    margin-top: 80px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+#country2 {
+    border: none;
+    width: 180px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    background-color: #3D83DF;
+    font-family: Roboto, sans-serif;
+    font-size: large;
+    margin-top: 60px;
+}
+
+.Box3 {
+    background-color: #1B2734;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 290px;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 10px;
+    padding: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+#country3 {
+    border: none;
+    width: 180px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    background-color: #1B2734;
+    font-size: large;
+    margin-top: 10px;
+}
+
+#country4 {
+    border: none;
+    width: 230px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    background-color: #1B2734;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.title2 {
+    font-family: Roboto, sans-serif;
+    line-height: 0px;
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+span {
+    font-family: Roboto, sans-serif;
+    font-size: x-large;
+    font-weight: 300;
+}
